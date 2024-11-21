@@ -16,7 +16,7 @@ struct Args {
     root_limit: usize,
 
     /// Maximum number of files to show in each subdirectory
-    #[arg(short = 's', long, default_value_t = 4)]
+    #[arg(short = 's', long, default_value_t = 10)]
     sub_limit: usize,
 
     /// Number of levels to show in the tree

@@ -1,6 +1,6 @@
 [package]
 name = "prettier-ls"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Jonathan Day <Jonathanday088@gmail.com>"]
 description = "A Rust tool to list directories and files in a tree-like structure with customizable display options."
