@@ -1,0 +1,15 @@
+[package]
+name = "prettier-ls"
+version = "0.1.0"
+edition = "2021"
+authors = ["Jonathan Day <Jonathanday088@gmail.com>"]
+description = "A Rust tool to list directories and files in a tree-like structure with customizable display options."
+license = "MIT"
+repository = "https://github.com/jon429r/prettier-ls"
+keywords = ["ls", "tree", "directory", "file", "cli", "colored-output"]
+categories = ["command-line-utilities", "filesystem"]
+readme = "README.md"
+
+[dependencies]
+clap = { version = "4.5.13", features = ["derive"] }
+colored = "2.1.0"
